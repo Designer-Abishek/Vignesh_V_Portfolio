@@ -1,0 +1,72 @@
+body {
+    font-family: "Inter Tight", sans-serif;
+}
+/* ------ Navbar Secyion ------ */
+.navbar {
+    background-color: rgb(255, 255, 255);
+    /* background: linear-gradient(45deg, rgba(153, 121, 46, 0.95), rgb(12, 72, 120, 0.95)); */
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: Black;
+}
+
+.nav-item {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: black;
+}
+
+/* ------ Home Section ------ */
+#home {
+    background: #25364c;
+}
+
+.hero-text h1 {
+    font-weight: 800;
+    color: white;
+}
+
+.hero-text h2{
+    font-weight: 400;
+    color: white;
+}
+
+.hero-text h2 span {
+    font-weight: 800;
+    color: white;
+}
+
+.hero-text p{
+    font-weight: 400;
+    color: white;
+}
+
+hr {
+    color: white;
+    border: 2px solid white;
+    width: 50%;
+}
+
+.hero-img {
+    height: 70vh;
+    width: auto;
+    border-radius: 50%;
+}
+
+.cta-btn {
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: #405571;
+    color: white;
+}
+
+.cta-btn:hover {
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: white;
+    color: #405571;
+    border: 1px solid #405571;
+}
