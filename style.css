@@ -22,7 +22,16 @@ body {
 
 /* ------ Home Section ------ */
 #home {
-    background: #25364c;
+    background-color: #25364c;
+    background: url(./images/graphic-abstract-background-communication-perspective-backdrop-of-depth-big-data-complex-minimal-array-with-compounds-lines-and-dots-digital-data-vis.jpg) no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.hero-text {
+    background-color: #000000;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.75), rgb(12, 72, 120, 75%));
+    height: 50vh;
 }
 
 .hero-text h1 {
@@ -43,6 +52,7 @@ body {
 .hero-text p{
     font-weight: 400;
     color: white;
+    text-align: center;
 }
 
 hr {
@@ -59,16 +69,18 @@ hr {
 .cta-btn {
     font-weight: 700;
     font-size: 1rem;
-    background-color: #405571;
+    /* background-color: #405571; */
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.75), rgb(12, 72, 120, 75%));
     color: white;
+
 }
 
 .cta-btn:hover {
     font-weight: 700;
     font-size: 1rem;
-    background-color: white;
+    background: white;
     color: #405571;
-    border: 1px solid #405571;
+    border: 1px solid #ffffff;
 }
 
 
