@@ -1,5 +1,6 @@
 body {
     font-family: "Inter Tight", sans-serif;
+    scroll-behavior: smooth;
 }
 /* ------ Navbar Secyion ------ */
 .navbar {
@@ -53,7 +54,6 @@ hr {
 .hero-img {
     height: 70vh;
     width: auto;
-    border-radius: 50%;
 }
 
 .cta-btn {
@@ -69,4 +69,88 @@ hr {
     background-color: white;
     color: #405571;
     border: 1px solid #405571;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------ Media Queries ------ */
+@media (max-width: 300px) {
+    .navbar-brand {
+        font-size: 1.5rem !important;
+    }
+    
+    .cta a:nth-child(1) {
+        padding-inline: 0 !important;
+    }
+}
+
+@media (max-width: 350px) {
+    .cta a:nth-child(1) {
+        font-size: 0.8rem;
+        padding-inline: 2rem !important;
+    }
+}
+@media (max-width: 426px) {
+    .navbar-brand {
+        font-size: 2rem;
+    }
+
+    p {
+        width: 90vw;
+    }
+    
+    .fa-linkedin{
+        font-size: 2rem !important;
+    }
+    .fa-github {
+        font-size: 2rem !important;
+    }
+
+    .hero-img {
+        height: 40vh !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .hero-text {
+        align-items: center;
+        margin-top: 1.5rem !important;
+        margin-bottom: 1.5rem !important;
+        order: 2;
+    }
+
+    p {
+        text-align: center;
+        margin: 0;
+    }
+
+    .cta {
+        justify-content: center;
+    }
+    
+    .hero-img-container {
+        margin-top: 1.5rem !important;
+        margin-bottom: 0 !important;
+        order: 1;
+    }
+
+    .hero-img {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero-img {
+        height: 50vh;
+    }
 }
