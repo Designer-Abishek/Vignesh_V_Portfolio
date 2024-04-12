@@ -47,12 +47,14 @@ body {
 .hero-text h2 span {
     font-weight: 800;
     color: white;
+    font-size: 3rem;
 }
 
 .hero-text p{
     font-weight: 400;
     color: white;
     text-align: center;
+    font-size: 1.2rem;
 }
 
 hr {
@@ -72,7 +74,8 @@ hr {
     /* background-color: #405571; */
     background: linear-gradient(45deg, rgba(0, 0, 0, 0.75), rgb(12, 72, 120, 75%));
     color: white;
-
+    outline: 1px solid white;
+    transition: 0.3s ease-in-out;
 }
 
 .cta-btn:hover {
@@ -81,6 +84,18 @@ hr {
     background: white;
     color: #405571;
     border: 1px solid #ffffff;
+}
+
+/* ------ Footer Section ------ */
+.footer-bg p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #595959;
+}
+
+.footer-bg p span {
+    font-weight: 900;
+    color: #000000;
 }
 
 
@@ -107,6 +122,14 @@ hr {
 }
 
 @media (max-width: 350px) {
+    .hero-text h2 span {
+        font-size: 2rem;
+    }
+    
+    .hero-text p{
+        font-size: 1rem;
+    }
+
     .cta a:nth-child(1) {
         font-size: 0.8rem;
         padding-inline: 2rem !important;
@@ -162,6 +185,7 @@ hr {
 }
 
 @media (max-width: 1024px) {
+
     .hero-img {
         height: 50vh;
     }
