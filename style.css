@@ -42,12 +42,13 @@ body {
 .hero-text h2{
     font-weight: 400;
     color: white;
+    font-size: 1.5rem;
 }
 
 .hero-text h2 span {
     font-weight: 800;
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .hero-text p{
@@ -86,6 +87,33 @@ hr {
     border: 1px solid #ffffff;
 }
 
+/* ------ Education Section ------ */
+.education-card {
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 1rem;
+}
+
+.education-card:hover {
+    background-color: #e7e6e6;
+    transition: 0.3s ease-in-out;
+}
+
+.education-title {
+    font-weight: 900;
+    word-spacing: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.ne-university-logo {
+    height: 30vh;
+}
+
+.anna-university-logo {
+    height: 30vh;
+    width: 90%;
+}
+
 /* ------ Footer Section ------ */
 .footer-bg p {
     font-size: 1.2rem;
@@ -122,19 +150,38 @@ hr {
 }
 
 @media (max-width: 350px) {
+    .cta a:nth-child(1) {
+        font-size: 0.8rem;
+        padding-inline: 2rem !important;
+    }
+}
+
+@media (max-width: 376px) {
+    .navbar-brand {
+        font-size: 1.2rem !important;
+    }
+
+    .nav-item {
+        font-size: 1rem !important;
+    }
+
+    .hero-text h2 {
+        font-size: 1rem;
+    }
+
     .hero-text h2 span {
-        font-size: 2rem;
+        font-size: 1.2rem !important;
     }
     
     .hero-text p{
         font-size: 1rem;
     }
 
-    .cta a:nth-child(1) {
-        font-size: 0.8rem;
-        padding-inline: 2rem !important;
+    .cta-btn {
+        font-size: 0.7rem;
     }
 }
+
 @media (max-width: 426px) {
     .navbar-brand {
         font-size: 2rem;
@@ -185,6 +232,25 @@ hr {
 }
 
 @media (max-width: 1024px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .nav-item {
+        font-size: 1rem;
+    }
+
+    .hero-text h2 {
+        font-size: 1rem;
+    }
+
+    .hero-text h2 span {
+        font-size: 1.5rem;
+    }
+    
+    .hero-text p{
+        font-size: 1rem;
+    }
 
     .hero-img {
         height: 50vh;
