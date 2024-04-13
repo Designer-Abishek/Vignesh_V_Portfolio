@@ -115,17 +115,24 @@ hr {
 }
 
 /* ------ Footer Section ------ */
-.footer-bg p {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #595959;
+.footer-bg {
+    background: #000;
 }
 
-.footer-bg p span {
-    font-weight: 900;
-    color: #000000;
+.footer-call {
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
 }
 
+.footer-links {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.footer-links a i {
+    color: rgb(4, 139, 193);
+}
 
 
 
